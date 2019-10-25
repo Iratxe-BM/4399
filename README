@@ -192,7 +192,7 @@ ssh-keygen - Accept all the answers by default
 cat $HOME/.ssh/id_rsa.pub - Copy the output of this last command and use it in the next step
 
 EC2 Dashboard - Key Pairs - Import Key Pair
-Key pair name: MGMT
+Key pair name: 4399
 Public key contents: Paste here the output of the previous command in the last step
 Import
 
@@ -244,7 +244,7 @@ Step 6: Configure Security Group - Select an existing security group
 4399-SSH
 4399-AWS
 Step 7: Review Instance Launch - Select a key pair - Launch
-Your instances are now launching - View instance - Description - IPv4 Public IP - Copy to clipboard
+Your instances are now launching - View instance - Description - Private IPs - Copy to clipboard
 SSH connection to the machine
 cat /token_manager - sudo docker swarm join --token XXXXXXXXXX X.X.X.X:2377 (KEEP THIS TOKEN FOR THE NEXT STEP)
 cat /token_worker - sudo docker swarm join --token XXXXXXXXXX X.X.X.X:2377 (KEEP THIS TOKEN FOR THE NEXT STEP)
@@ -467,8 +467,7 @@ Step 5: Register Targets
 Step 6: Review - Create
 
 Restrict services to worker nodes
-Connect to the UCP load balancer: 4399-UCP
-http://4399-UCP-xxxxx.eu-central-1.elb.amazonaws.com
+Connect to the UCP load balancer: 4399-UCP - Description - DNS Name - http://4399-UCP-xxxxx.eu-central-1.elb.amazonaws.com
 Access UCP dashboard: login credentials - Skip license for now
 Access Admin Settings - Scheduler
 Disable the following rule: Allow Users To Schedule On All Nodes, Including UCP Managers And DTR Nodes
