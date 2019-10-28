@@ -5,8 +5,8 @@ sudo amazon-linux-extras install docker -y
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo docker swarm init
-echo " export UCP_ADMIN_USERNAME=$( openssl rand -base64 32 | tr -d '+=/A-Z0-9' | fold -w 8  | head -1 )" 1>  token_ucp
-echo " export UCP_ADMIN_PASSWORD=$( openssl rand -base64 32 | tr -d '+=/'       | fold -w 16 | head -1 )" 1>> token_ucp
+echo " export UCP_ADMIN_USERNAME=$( openssl rand -base64 1024 | tr -d '+=/A-Z0-9' | fold -w 32 | head -1 )" 1>  token_ucp
+echo " export UCP_ADMIN_PASSWORD=$( openssl rand -base64 1024 | tr -d '+=/'       | fold -w 32 | head -1 )" 1>> token_ucp
 f=token_ucp
 export UCP_ADMIN_USERNAME=$( awk -F= /UCP_ADMIN_USERNAME/'{ print $2 }' $f )
 export UCP_ADMIN_PASSWORD=$( awk -F= /UCP_ADMIN_PASSWORD/'{ print $2 }' $f )
