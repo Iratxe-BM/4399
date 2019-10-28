@@ -1,6 +1,6 @@
 FROM alpine/git AS git
 WORKDIR /app
-RUN git clone --single-branch --branch aws2c9 https://github.com/iratxebm/4399
+RUN git clone --single-branch --branch aws2c9 https://github.com/Iratxe-BM/4399
 
 FROM nginx:stable-alpine AS utils
 RUN apk add apache2-utils
