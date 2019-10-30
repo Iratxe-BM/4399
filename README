@@ -214,7 +214,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -231,7 +231,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4399
@@ -248,10 +248,10 @@ Your instances are now launching - View instance - Description - Private IPs - C
 SSH connection to the machine
 cat /token_manager - sudo docker swarm join --token XXXXXXXXXX X.X.X.X:2377 (KEEP THIS TOKEN FOR THE NEXT STEP)
 cat /token_worker - sudo docker swarm join --token XXXXXXXXXX X.X.X.X:2377 (KEEP THIS TOKEN FOR THE NEXT STEP)
-cat /token_ucp - UCP_ADMIN_USERNAME=xxx (KEEP THIS TOKEN FOR LATER) - UCP_ADMIN_PASSWORD=xxx (KEEP THIS TOKEN FOR LATER)
+cat /token_ucp - UCP_ADMIN_USERNAME=xxx (KEEP THIS TOKEN FOR LATER) - UCP_ADMIN_PASSWORD=xxx (KEEP THIS TOKEN FOR LATER)
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4399
@@ -266,7 +266,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4399
@@ -281,7 +281,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -297,7 +297,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -313,7 +313,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -412,7 +412,7 @@ eu-central-1b - Select a subnet - 4399-AWS2
 eu-central-1c - Select a subnet - 4399-AWS3
 Tags - Name - 4399-AWS
 Step 2: Configure Security Settings
-Step 3: Configure Security Groups - Assign a security group
+Step 3: Configure Security Groups - Assign a security group
 Select an existing security group - 4399-HTTP
 Step 4: Configure Routing - Target group
 Target group - Existing target group
@@ -430,7 +430,7 @@ Add action - Return fixed response
 Response code - 403
 Validate - Update
 Back to Load Balancer - View/edit rules
-Add rules  - Insert Rule
+Add rules  - Insert Rule
 Add condition - Path
 Path is - /C9/*
 Validate - Add action
@@ -452,7 +452,7 @@ eu-central-1b - Select a subnet - 4399-AWS2
 eu-central-1c - Select a subnet - 4399-AWS3
 Tags - Name - 4399-UCP
 Step 2: Configure Security Settings
-Step 3: Configure Security Groups - Assign a security group
+Step 3: Configure Security Groups - Assign a security group
 Select an existing security group - 4399-HTTP
 Step 4: Configure Routing - Target group
 Target group - Existing target group
@@ -479,7 +479,7 @@ Check in Dockerhub until the build with the corrected image has finished:
 https://cloud.docker.com/repository/docker/secobau/4399-ec2aws/builds
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -495,7 +495,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4399
@@ -575,7 +575,7 @@ eu-central-1a - Select a subnet - 4399-EC1
 eu-central-1b - Select a subnet - 4399-EC2
 Tags - Name - 4399-EC
 Step 2: Configure Security Settings
-Step 3: Configure Security Groups - Assign a security group
+Step 3: Configure Security Groups - Assign a security group
 Select an existing security group - 4399-HTTP
 Step 4: Configure Routing - Target group - Target group - Existing target group
 Name - 4399-EC2API
@@ -592,7 +592,7 @@ Add action - Return fixed response
 Response code - 403
 Validate - Update
 Back to Load Balancer - View/edit rules
-Add rules - Insert Rule
+Add rules - Insert Rule
 Add condition - Path
 Path is - /API/*
 Validate
@@ -614,7 +614,7 @@ sudo docker stack deploy --compose-file 4399/aws.yml AWS
 
 Initialize API with values
 Connect to instance: 4399-C9
-Run the following commands: 
+Run the following commands: 
 sudo docker container exec -ti c9 sh
 curl 4399-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ -H "Content-Type: application/json" -X POST -d '{"colour":"red", "size":"small"}' ; echo
 curl 4399-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ ; echo
